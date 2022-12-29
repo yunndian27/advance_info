@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>詠騰企業_20220920</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- 套件 -->
+  <!-- <link rel="stylesheet" href="js/bootstrap/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap-utilities.css">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+  <!-- custom -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="container">
+        <div class="mob-header">
+          <h1 class="logo"><a href="./index.html"><img src="https://fakeimg.pl/40x40/">{{ message }}</a></h1>
+          <a class="hamb slidebar-btn" data-bs-toggle="collapse" data-bs-target="#collapseNav" aria-expanded="false" aria-controls="collapseNav">
+            <span></span>
+          </a>
+        </div>
+        <div class="menu sidebar-slide collapse collapse-horizontal" id="collapseNav">
+          <ul class="nav">
+            <li class="nav-item"><a href="#advance04" class="nav-link">關於我們</a></li>
+            <li class="nav-item"><a href="#advance01" class="nav-link">服務與產品</a></li>
+            <li class="nav-item"><a href="#advance03" class="nav-link">研發與技術</a></li>
+            <li class="nav-item"><a href="#advance05" class="nav-link">新聞中心</a></li>
+            <li class="nav-item"><a href="#advance06" class="nav-link">聯絡我們</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </header>
+    
+    <main>
+      <article class="banner">
+        <div class="container">
+          <div class="slogan">
+            <h1><span>詠</span>續經營<br><span>騰</span>聲飛實</h1>
+            <h2>頂尖<span>團隊</span> ｜  最高<span>品質</span>  ｜ 優秀<span>服務</span></h2>
+          </div>
+        </div>
+      </article>
+      
+      <article id="advance01" class="articleBlock articleBlock01">
+          <div class="container">
+            <h2>主要產品 <span>Our Product</span></h2>
+            <div class="slick_content">
+              <div class="slick_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="https://picsum.photos/400/400/?random=1">
+                <h3>電感產品1</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=2">
+                <h3>高頻變壓器</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=3">
+                <h3>低頻變壓器</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=4">
+                <h3>電感產品2</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=5">
+                <h3>高頻變壓器</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=6">
+                <h3>低頻變壓器</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=4">
+                <h3>電感產品3</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=5">
+                <h3>高頻變壓器</h3>
+              </div>
+              <div class="slick_item">
+                <img src="https://picsum.photos/400/400/?random=6">
+                <h3>低頻變壓器</h3>
+              </div>
+            </div>
+          </div>
+      </article>
+      
+      <article id="advance02" class="articleBlock articleBlock02">
+          <div class="container">
+            <div class="slogan">
+              <h2>好的產品  更好的服務</h2>
+              <h3>Better Product, the Best Service.</h3>
+            </div>
+          </div>
+      </article>
+      
+      <article id="advance03" class="articleBlock articleBlock03">
+          <div class="container">
+            <h2>專案服務 <span>Our Service</span></h2>
+            <div class="service_content">
+              <div class="service_item">
+                <img src="./images/ourService_pic01.svg" alt="規格需求討論">
+                <p>規格需求討論</p>
+              </div>
+              <div class="service_item">
+                <img src="./images/ourService_pic02.svg" alt="客製化設計">
+                <p>客製化設計</p>
+              </div>
+              <div class="service_item">
+                <img src="./images/ourService_pic03.svg" alt="專用開模成案">
+                <p>專用開模成案</p>
+              </div>
+            </div>
+          </div>
+      </article>
+      
+      <article id="advance04" class="articleBlock articleBlock04">
+          <div class="container">
+            <h2>公司簡介 <span>Our History</span></h2>
+            <div class="history_content">
+              <div class="history_pic"><img src="https://picsum.photos/350/450/?random=10"></div>
+              <div class="history">
+                <p>詠騰企業有限公司位於桃園市八德區介壽路2段685巷66弄126號。</p>
+                <p>公司成立於1995年至今已有27年我們以誠信品質為最高原則在發展中累積經驗。現今公司生產的變壓器、電感及各類線圈廣泛用於通訊，家用產品，電腦及軍、工、醫療設備，航空系列配套元件。</p>
+                <p>在全體員工共同努力下，公司正穩健中向前發展。</p>
+                <p>詠騰企業有限公司秉持信譽為基、務實為本、客戶為尊的服務理念。不斷發揮自身優勢並整合行業資源、廣納技術人才並提供優質產品供客戶需求共創雙嬴。</p>
+              </div>
+            </div>
+          </div>
+      </article>
+      
+      <article id="advance05" class="articleBlock articleBlock05">
+          <div class="container">
+            <h2>最新消息 <span>Our News</span></h2>
+            <div class="news_content">
+              <div class="news_item">
+                <div class="news_pic"><img src="https://picsum.photos/350/240/?random=1" alt="規格需求討論"></div>
+                <span class="time">09<b>/</b><br>28</span>
+                <h3>最新消息(ㄧ）</h3>
+              </div>
+              <div class="news_item">
+                <div class="news_pic"><img src="https://picsum.photos/350/240/?random=2" alt="規格需求討論"></div>
+                <span class="time">09<b>/</b><br>28</span>
+                <h3>最新消息(二）</h3>
+              </div>
+              <div class="news_item">
+                <div class="news_pic"><img src="https://picsum.photos/350/240/?random=3" alt="規格需求討論"></div>
+                <span class="time">09<b>/</b><br>28</span>
+                <h3>最新消息(三）</h3>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <article id="advance06" class="articleBlock articleBlock06">
+          <div class="container">
+            <h2>如果有需要任何幫助歡迎與我們聯繫</h2>
+            <a class="button" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>
+          </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="foot-info">
+          <div class="copyright">詠騰企業有限公司版權所有©Advance info. All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- modal -->
+  <!-- Vertically centered modal -->
+  <div class="modal modal-dialog-centered" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+        </div>
+        <div class="modal-body product_box">
+          <div class="product_img">
+            <img src="https://picsum.photos/400/400/?random=1" alt="">
+          </div>
+          <div class="product_info">
+            <h3>電感系列 ｜ 工字型電感</h3>
+            <h2>電感產品1</h2>
+            <p>內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明內容說明</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>想了解更多，歡迎聯絡我們</p>
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary">聯絡我們</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/bootstrap/bootstrap.min.js"></script>
+  <script src="./js/slick/slick.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script>
+    const { createApp } = Vue
+
+    createApp({
+      data() {
+        return {
+          message: '詠騰企業'
+        }
+      },
+      components: {},
+    }).mount('#app');
+
+    // $(function($) {
+    //   $('.nav a[href*="#"]:not([href="#"])').click(function() {
+    //       $(this).parents('.nav').find('a').removeClass('active');
+    //       $(this).attr('class', 'active');
+    //       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    //           var target = $(this.hash);
+    //           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    //           if (target.length) {
+    //               $('html, body').animate({
+    //                   scrollTop: target.offset().top-150
+    //               }, 1000);
+    //               return false;
+    //           }
+    //       }
+    //   });
+
+    //   $(".slidebar-btn").on('click',function(e){
+    //       $(this).toggleClass('active');
+    //   });
+
+    //   var scrollTop = $(".scrollTop");
+    //   $(window).scroll(function() {
+    //     var topPos = $(this).scrollTop();
+
+    //     if (topPos > 100) {
+    //       $(scrollTop).css("opacity", "1");
+    //     } else {
+    //       $(scrollTop).css("opacity", "0");
+    //     }
+    //   });
+
+    //   $(scrollTop).click(function() {
+    //     $('html, body').animate({
+    //       scrollTop: 0
+    //     }, 800);
+    //     return false;
+    //   });
+
+
+    // });
+</script>
+</body>
+</html>

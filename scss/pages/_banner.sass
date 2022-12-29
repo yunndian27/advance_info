@@ -1,0 +1,46 @@
+.banner
+  background: $color_grey_cc url("../images/unsplash_qM37iptlCNY.jpg") no-repeat 80% center / cover
+  min-height: 600px
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  @include b992
+    background-position: center
+
+  .container
+    width: 100%
+  
+  h1
+    font-size: 28px
+    font-weight: 400
+    padding: 0 40px
+    margin-bottom: 20px
+    span
+      font-size: 60px
+      font-weight: 700
+      color: $color_primary
+      &:last-child
+        padding-left: 40px
+    @include b576
+      font-size: 40px
+      padding-left: 110px
+      span
+        font-size: 66px
+        &:last-child
+          padding-left: 100px
+    @include b992
+      font-size: 48px
+      span
+        font-size: 96px
+
+  h2
+    font-size: 18px
+    font-weight: 700
+    padding: 0 40px
+    span
+      color: $color_primary
+    @include b768
+      padding-left: 210px
+    @include b992
+      font-size: 32px

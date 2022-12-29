@@ -1,0 +1,38 @@
+.articleBlock06
+  background: $color_primary
+  margin-bottom: 0
+  padding: 0
+  .container
+    padding: 70px 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    @include b576
+      justify-content: space-around
+    @include b1200
+      padding: 70px 0
+  h2
+    font-size: 24px
+    color: $color_white
+    letter-spacing: 0.2px
+    text-align: center
+    margin-bottom: 20px
+    @include b576
+      font-size: 30px
+      text-align: left
+      margin-bottom: 0
+    @include b992
+      font-size: 36px
+  .button
+    font-size: 21px
+    color: $color_black
+    background: #F9E108
+    border-radius: 12px
+    padding: 13px 50px
+    transition: all 0.3s ease-in-out
+    &:hover
+      background: $color_black
+      color: #F9E108
+    @include b992
+      font-size: 24px

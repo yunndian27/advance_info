@@ -1,0 +1,49 @@
+.articleBlock03
+  .service_content
+    display: flex
+    justify-content: space-around
+    margin: 60px 0
+    flex-wrap: wrap
+  .service_item
+    width: calc( 100% - 100px )
+    margin-bottom: 20px
+    text-align: center
+    transition: all 0.3s ease-in-out
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      right: 40px
+      bottom: 40px
+      width: 60px
+      height: 60px
+      border-radius: 50px
+      background: rgba(192, 42, 44, 0.2)
+      transition: all 0.3s ease-in-out
+    @include b576
+      width: calc( 100% / 3 - 80px )
+      margin-bottom: 0
+      &::before
+        right: 0px
+        bottom: 60px
+    @include b992
+      width: calc( 100% / 3 - 150px )
+      &::before
+        right: 40px
+        bottom: 40px
+        background: rgba(192, 42, 44, 0)
+    p
+      font-size: 21px
+      font-weight: 700
+      color: #720708
+      @include b576
+        font-size: 24px
+      @include b768
+        font-size: 28px
+    &:hover
+      &::before
+        background: rgba(192, 42, 44, 0.2)
+      img
+        filter: invert(27%) sepia(59%) saturate(3761%) hue-rotate(341deg) brightness(75%) contrast(100%)
+      p
+        color: $color_primary
