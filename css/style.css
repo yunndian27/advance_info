@@ -74,17 +74,17 @@ a {
 }
 @media (min-width: 576px) {
   .articleBlock01 h2,
-.articleBlock03 h2,
-.articleBlock04 h2,
-.articleBlock05 h2 {
+  .articleBlock03 h2,
+  .articleBlock04 h2,
+  .articleBlock05 h2 {
     font-size: 30px;
   }
 }
 @media (min-width: 992px) {
   .articleBlock01 h2,
-.articleBlock03 h2,
-.articleBlock04 h2,
-.articleBlock05 h2 {
+  .articleBlock03 h2,
+  .articleBlock04 h2,
+  .articleBlock05 h2 {
     font-size: 36px;
   }
 }
@@ -149,6 +149,19 @@ footer .copyright {
   overflow-y: auto;
   outline: 0;
 }
+.modal .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.modal .modal-header .btn-close {
+  font-size: 30px;
+  border: none;
+  background: none;
+}
 .modal .modal-content {
   width: 100%;
   max-width: 1000px;
@@ -158,8 +171,13 @@ footer .copyright {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: #fff;
-  padding: 60px;
+  padding: 40px;
   border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .modal .modal-content {
+    padding: 60px;
+  }
 }
 .modal .product_box {
   display: -webkit-box;
@@ -167,10 +185,26 @@ footer .copyright {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .modal .product_img {
+  max-width: 400px;
+  height: 400px;
   width: 100%;
-  height: auto;
+  background: rgba(0, 0, 0, 0.05);
+}
+.modal .product_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 @media (min-width: 992px) {
   .modal .product_img {
@@ -179,12 +213,80 @@ footer .copyright {
 }
 .modal .product_info {
   width: 100%;
-  padding-left: 40px;
+  padding-left: 0px;
+}
+.modal .product_info p {
+  font-size: 18px;
 }
 @media (min-width: 992px) {
   .modal .product_info {
     width: calc(100% - 400px);
+    padding-left: 40px;
   }
+}
+.modal .product_info .contact {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (min-width: 768px) {
+  .modal .product_info .contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.modal .product_info .contact .btn-primary {
+  background: #1E3BA4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 10px 0 0 0;
+}
+@media (min-width: 768px) {
+  .modal .product_info .contact .btn-primary {
+    margin: 0 20px 0 0;
+  }
+}
+.modal.modal_news .modal-header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.modal.modal_news .modal-header h2 {
+  color: #C02A2C;
+}
+.modal.modal_news .product_info h2 {
+  margin-bottom: 20px;
+}
+.modal.modal_news .product_info h3 {
+  color: #1E3BA4;
+  margin-bottom: 12px;
+}
+.modal.modal_news .product_info p {
+  line-height: 1.5;
+  color: #666;
+}
+.modal.modal_news .product_img {
+  height: auto;
 }
 
 header {
@@ -491,6 +593,24 @@ header .mob-header {
   text-align: center;
   color: #fff;
   background: rgba(192, 42, 44, 0.7);
+}
+.articleBlock01 .slick_pic {
+  background: rgba(192, 42, 44, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.articleBlock01 .slick_pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .articleBlock02 {

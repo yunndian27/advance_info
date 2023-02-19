@@ -10,6 +10,13 @@
   overflow-x: hidden
   overflow-y: auto
   outline: 0
+  .modal-header
+    display: flex
+    justify-content: flex-end
+    .btn-close
+      font-size: 30px
+      border: none
+      background: none
   .modal-content
     width: 100%
     max-width: 1000px
@@ -18,18 +25,68 @@
     top: 50%
     transform: translate(-50%,-50%)
     background: #fff
-    padding: 60px
+    padding: 40px
     border-radius: 20px
+    @include b768
+      padding: 60px
   .product_box
     display: flex
     flex-wrap: wrap
+    justify-content: center
+    align-items: center
   .product_img
+    max-width: 400px
+    height: 400px
     width: 100%
-    height: auto
+    background: rgba(0, 0, 0,0.05 )
+    img
+      width: 100%
+      height: 100%
+      object-fit: contain
+      object-position: center
     @include b992
       width: 400px
   .product_info
     width: 100%
-    padding-left: 40px
+    padding-left: 0px
+    p
+      font-size: 18px
     @include b992
       width: calc( 100% - 400px )
+      padding-left: 40px
+    .contact
+      margin-top: 20px
+      font-size: 18px
+      color: $color_grey_66
+      display: flex
+      justify-content: flex-end
+      flex-direction: column
+      align-items: flex-end
+      @include b768
+        flex-direction: row
+        align-items: center
+      .btn-primary
+        background: $color_secondary
+        color: $color_white
+        border: none
+        padding: 10px 20px
+        border-radius: 50px
+        margin: 10px 0 0 0
+        @include b768
+          margin: 0 20px 0 0
+  &.modal_news
+    .modal-header
+      justify-content: space-between
+      h2
+        color: $color_primary
+    .product_info
+      h2
+        margin-bottom: 20px
+      h3
+        color: $color_secondary
+        margin-bottom: 12px
+      p
+        line-height: 1.5
+        color: $color_grey_66
+    .product_img
+      height: auto
