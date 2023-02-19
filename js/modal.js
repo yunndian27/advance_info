@@ -4,7 +4,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -15,7 +15,8 @@ modal = '<!-- modal 1 -->\
           <h2>口字型扁銅線共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -28,7 +29,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -39,7 +40,8 @@ modal = '<!-- modal 1 -->\
           <h2>口字型扁銅線共模電感(超小型)</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -52,7 +54,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -63,7 +65,8 @@ modal = '<!-- modal 1 -->\
           <h2>口字型扁銅線共差模電感(開氣隙)</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -76,7 +79,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -87,7 +90,8 @@ modal = '<!-- modal 1 -->\
           <h2>EMI 共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -100,7 +104,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -111,7 +115,8 @@ modal = '<!-- modal 1 -->\
           <h2>EMI 共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -124,7 +129,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -135,7 +140,8 @@ modal = '<!-- modal 1 -->\
           <h2>EMI 共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -148,7 +154,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -159,7 +165,8 @@ modal = '<!-- modal 1 -->\
           <h2>EMI 共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -172,7 +179,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -183,7 +190,8 @@ modal = '<!-- modal 1 -->\
           <h2>口字型扁銅線共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -196,7 +204,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -207,7 +215,8 @@ modal = '<!-- modal 1 -->\
           <h2>三相共模電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -220,7 +229,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -231,7 +240,8 @@ modal = '<!-- modal 1 -->\
           <h2>大瓦數主變壓器(鈦金牌)</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -244,7 +254,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -255,7 +265,8 @@ modal = '<!-- modal 1 -->\
           <h2>大瓦數主變壓器(鈦金牌)</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -268,7 +279,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -279,7 +290,8 @@ modal = '<!-- modal 1 -->\
           <h2>高頻變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -292,7 +304,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -303,7 +315,8 @@ modal = '<!-- modal 1 -->\
           <h2>高頻變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -316,7 +329,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -327,7 +340,8 @@ modal = '<!-- modal 1 -->\
           <h2>SMD 型</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -340,7 +354,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -351,7 +365,8 @@ modal = '<!-- modal 1 -->\
           <h2>高頻變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -364,7 +379,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -375,7 +390,8 @@ modal = '<!-- modal 1 -->\
           <h2>PFC 變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -388,7 +404,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -399,7 +415,8 @@ modal = '<!-- modal 1 -->\
           <h2>Planner 平板變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -412,7 +429,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -423,7 +440,8 @@ modal = '<!-- modal 1 -->\
           <h2>高頻變壓器</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -436,7 +454,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -447,7 +465,8 @@ modal = '<!-- modal 1 -->\
           <h2>特殊 EMI+core 應用</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -460,7 +479,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -471,7 +490,8 @@ modal = '<!-- modal 1 -->\
           <h2>SMD 電感</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -484,7 +504,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <!-- <h2 class="modal-title" id="exampleModalLabel">產品介紹</h2> -->\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -495,7 +515,8 @@ modal = '<!-- modal 1 -->\
           <h2>大功率扁平線PFC</h2>\
           <div class="contact">\
             <p>想了解更多，歡迎聯絡我們</p>\
-            <button type="button" class="btn btn-primary">聯絡我們</button>\
+            <a class="btn btn-primary" href="mailto:norths369@gmail.com?subject=New%20inquiry&cc=danielwang7999@gmail.com">聯絡我們</a>\
+            <!-- <button type="button" class="btn btn-primary">聯絡我們</button> -->\
           </div>\
         </div>\
       </div>\
@@ -508,7 +529,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <h2 class="modal-title" id="exampleModalLabel">最新消息</h2>\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -529,7 +550,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <h2 class="modal-title" id="exampleModalLabel">最新消息</h2>\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -550,7 +571,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <h2 class="modal-title" id="exampleModalLabel">最新消息</h2>\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
@@ -571,7 +592,7 @@ modal = '<!-- modal 1 -->\
     <div class="modal-content">\
       <div class="modal-header">\
         <h2 class="modal-title" id="exampleModalLabel">最新消息</h2>\
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>\
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/icon_close.png"></button>\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\

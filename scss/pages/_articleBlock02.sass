@@ -1,23 +1,35 @@
 .articleBlock02
-  background: url("../images/unsplash_aSvBypuXGkc.jpg") no-repeat 30% top / cover
-  padding: 160px 0
+  // background: url("../images/unsplash_aSvBypuXGkc.jpg") no-repeat 30% top / cover
+  // padding: 160px 0
   position: relative
-  z-index: 1
-  @include b576
-    background-position: center
-  &::before
-    content: ''
-    position: absolute
-    left: 0
-    top: 0
+  // z-index: 1
+  // @include b576
+  //   background-position: center
+  // &::before
+  //   content: ''
+  //   position: absolute
+  //   left: 0
+  //   top: 0
+  //   width: 100%
+  //   height: 100%
+  //   background: #fff
+  //   opacity: 0.65
+  //   z-index: -1
+  //   backdrop-filter: blur(20px)
+  //   @include b576
+  //     opacity: 0.5
+  .parallax
+    background: url("../images/parallax_bg.jpg") center center no-repeat
+    min-height: 420px
+    background-attachment: fixed
+    background-size: cover
+    display: flex
+    justify-content: center
+    align-items: center
+    @include b992
+      min-height: 600px
+  .container
     width: 100%
-    height: 100%
-    background: #fff
-    opacity: 0.65
-    z-index: -1
-    backdrop-filter: blur(20px)
-    @include b576
-      opacity: 0.5
   h2
     font-size: 36px
     font-weight: 700
@@ -32,6 +44,7 @@
     font-weight: 400
     color: $color_primary
     text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff
+    text-align: center
     @include b992
       font-size: 36px
       text-shadow: none

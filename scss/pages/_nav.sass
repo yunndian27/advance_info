@@ -15,6 +15,7 @@ header
     justify-content: center
     align-content: center
     flex-direction: column
+    padding: 0
     @include b992
       flex-direction: row
       justify-content: space-between
@@ -22,6 +23,11 @@ header
 
   h1
     margin: 0
+    font-size: 21px
+    a
+      color: $color_black
+      &:hover
+        color: $color_primary
 
   ul
     display: flex
@@ -55,6 +61,8 @@ header
       margin: 0 10px
       display: block
       &.active
+        color: $color_primary
+      &:hover
         color: $color_primary
       @include b992
         font-size: 18px
