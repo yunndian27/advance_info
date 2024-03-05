@@ -1,25 +1,39 @@
 .articleBlock04
+  .title_partner
+    &::before
+      background: $color_white
   .history_content
     display: flex
     align-items: center
     margin: 40px 0
-    font-size: 21px
+    font-size: 18px
     line-height: 40px
     color: $color_grey_33
     flex-direction: column-reverse
+    &.sub
+      margin: 20px 0
     @include b576
-      font-size: 24px
+      font-size: 21px
     @include b992
       margin: 80px 0
       flex-direction: row
       font-size: 28px
+      &.sub
+        flex-direction: row-reverse
   .history
     width: 100%
-    padding: 0 40px
+    // padding: 0 20px
     margin-bottom: 40px
     @include b992
       width: calc( 100% - 350px )
       padding-left: 60px
+      &.sub
+        font-size: 20px
+        padding: 0 60px 0 0
+    h3
+      text-align: center
+      @include b992
+        text-align: left
   p
     text-indent: 2em
   .history_pic
@@ -32,11 +46,24 @@
       top: -18px
       left: -24px
       width: 100%
-      height: 450px
+      height: 100%
       background: rgba(192, 42, 44, 0.1)
       z-index: -1
+    &.partner
+      height: auto
+      &::before
+        height: 100%
     img
       width: 100%
       height: 100%
       object-fit: cover
       object-position: center
+  .history_info
+    margin: 0 0 20px 0
+  .btn_partner
+    color: $color_white
+    background: $color_func2
+    padding: 8px 30px
+    border-radius: 50px
+    &:hover
+      background: $color_primary

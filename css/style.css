@@ -28,6 +28,8 @@ ul li {
 
 a {
   text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (min-width: 992px) {
@@ -133,21 +135,29 @@ footer .copyright {
   font-size: 30px;
   border: none;
   background: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 .modal .modal-content {
   width: 100%;
   max-width: 1000px;
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: #fff;
-  padding: 40px;
-  border-radius: 20px;
+  padding: 60px 30px;
+  border-radius: 0px;
+  overflow: scroll;
 }
 @media (min-width: 768px) {
   .modal .modal-content {
+    overflow: hidden;
+    height: auto;
+    border-radius: 20px;
     padding: 60px;
   }
 }
@@ -166,7 +176,7 @@ footer .copyright {
 }
 .modal .product_img {
   max-width: 400px;
-  height: 400px;
+  height: auto;
   width: 100%;
   background: rgba(0, 0, 0, 0.05);
 }
@@ -186,6 +196,7 @@ footer .copyright {
 .modal .product_info {
   width: 100%;
   padding-left: 0px;
+  margin-top: 20px;
 }
 .modal .product_info p {
   font-size: 18px;
@@ -194,6 +205,7 @@ footer .copyright {
   .modal .product_info {
     width: calc(100% - 400px);
     padding-left: 40px;
+    margin-top: 0;
   }
 }
 .modal .product_info .contact {
@@ -235,7 +247,7 @@ footer .copyright {
 }
 @media (min-width: 768px) {
   .modal .product_info .contact .btn-primary {
-    margin: 0 20px 0 0;
+    margin: 0 0 0 20px;
   }
 }
 .modal.modal_news .modal-header {
@@ -259,6 +271,14 @@ footer .copyright {
 }
 .modal.modal_news .product_img {
   height: auto;
+}
+.modal .info_detail h4 {
+  margin-top: 20px;
+}
+.modal .info_detail ul > li {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1.5;
 }
 
 header {
@@ -595,6 +615,65 @@ header .mob-header {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.articleBlock01 .coproduct_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 60px 0;
+}
+.articleBlock01 .coproduct_item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 10px 5px;
+  color: #720708;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.articleBlock01 .coproduct_item:hover {
+  color: #C02A2C;
+}
+.articleBlock01 .coproduct_item:hover img {
+  -webkit-filter: invert(27%) sepia(59%) saturate(3761%) hue-rotate(341deg) brightness(75%) contrast(100%);
+          filter: invert(27%) sepia(59%) saturate(3761%) hue-rotate(341deg) brightness(75%) contrast(100%);
+}
+.articleBlock01 .coproduct_item h3 {
+  width: calc(100% - 24px);
+  word-wrap: break-word;
+}
+.articleBlock01 .coproduct_item br {
+  display: none;
+}
+@media (min-width: 768px) {
+  .articleBlock01 .coproduct_item {
+    width: calc(50% - 10px);
+    margin: 10px 5px;
+  }
+}
+@media (min-width: 992px) {
+  .articleBlock01 .coproduct_item {
+    width: calc(25% - 20px);
+    margin: 20px 10px;
+  }
+  .articleBlock01 .coproduct_item h3 {
+    width: calc(100% - 32px);
+  }
+  .articleBlock01 .coproduct_item br {
+    display: block;
+  }
+}
+.articleBlock01 .coproduct_pic {
+  width: 24px;
+}
+@media (min-width: 992px) {
+  .articleBlock01 .coproduct_pic {
+    width: 32px;
+  }
+}
 
 .articleBlock02 {
   position: relative;
@@ -745,6 +824,9 @@ header .mob-header {
   color: #C02A2C;
 }
 
+.articleBlock04 .title_partner::before {
+  background: #fff;
+}
 .articleBlock04 .history_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -753,7 +835,7 @@ header .mob-header {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 40px;
   color: #333;
   -webkit-box-orient: vertical;
@@ -761,9 +843,12 @@ header .mob-header {
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
+.articleBlock04 .history_content.sub {
+  margin: 20px 0;
+}
 @media (min-width: 576px) {
   .articleBlock04 .history_content {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
 @media (min-width: 992px) {
@@ -775,16 +860,33 @@ header .mob-header {
             flex-direction: row;
     font-size: 28px;
   }
+  .articleBlock04 .history_content.sub {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 .articleBlock04 .history {
   width: 100%;
-  padding: 0 40px;
   margin-bottom: 40px;
 }
 @media (min-width: 992px) {
   .articleBlock04 .history {
     width: calc(100% - 350px);
     padding-left: 60px;
+  }
+  .articleBlock04 .history.sub {
+    font-size: 20px;
+    padding: 0 60px 0 0;
+  }
+}
+.articleBlock04 .history h3 {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .articleBlock04 .history h3 {
+    text-align: left;
   }
 }
 .articleBlock04 p {
@@ -801,9 +903,15 @@ header .mob-header {
   top: -18px;
   left: -24px;
   width: 100%;
-  height: 450px;
+  height: 100%;
   background: rgba(192, 42, 44, 0.1);
   z-index: -1;
+}
+.articleBlock04 .history_pic.partner {
+  height: auto;
+}
+.articleBlock04 .history_pic.partner::before {
+  height: 100%;
 }
 .articleBlock04 .history_pic img {
   width: 100%;
@@ -812,6 +920,18 @@ header .mob-header {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.articleBlock04 .history_info {
+  margin: 0 0 20px 0;
+}
+.articleBlock04 .btn_partner {
+  color: #fff;
+  background: #720708;
+  padding: 8px 30px;
+  border-radius: 50px;
+}
+.articleBlock04 .btn_partner:hover {
+  background: #C02A2C;
 }
 
 .articleBlock05 .news_content {
@@ -890,13 +1010,18 @@ header .mob-header {
   }
 }
 .articleBlock05 h3 {
-  font-size: 28px;
+  font-size: 21px;
   font-weight: normal;
   color: #333;
   margin-top: 15px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+@media (min-width: 992px) {
+  .articleBlock05 h3 {
+    font-size: 28px;
+  }
 }
 
 .articleBlock06 {

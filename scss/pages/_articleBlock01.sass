@@ -39,3 +39,37 @@
       width: 100%
       height: 100%
       object-fit: contain
+  .coproduct_content
+    display: flex
+    flex-wrap: wrap
+    margin: 60px 0
+  .coproduct_item
+    cursor: pointer
+    display: flex
+    width: 100%
+    margin: 10px 5px
+    color: $color_func2
+    transition: all 0.3s ease-in-out
+    &:hover
+      color: $color_primary
+      img
+        filter: invert(27%) sepia(59%) saturate(3761%) hue-rotate(341deg) brightness(75%) contrast(100%)
+    h3
+      width: calc( 100% - 24px )
+      word-wrap: break-word
+    br
+      display: none
+    @include b768
+      width: calc( 100% / 2 - 10px )
+      margin: 10px 5px
+    @include b992
+      width: calc( 100% / 4 - 20px )
+      margin: 20px 10px
+      h3
+        width: calc( 100% - 32px )
+      br
+        display: block
+  .coproduct_pic
+    width: 24px
+    @include b992
+      width: 32px

@@ -17,17 +17,25 @@
       font-size: 30px
       border: none
       background: none
+      position: absolute
+      top: 20px
+      right: 20px
   .modal-content
     width: 100%
     max-width: 1000px
+    height: 100%
     position: absolute
     left: 50%
     top: 50%
     transform: translate(-50%,-50%)
     background: #fff
-    padding: 40px
-    border-radius: 20px
+    padding: 60px 30px
+    border-radius: 0px
+    overflow: scroll
     @include b768
+      overflow: hidden
+      height: auto
+      border-radius: 20px
       padding: 60px
   .product_box
     display: flex
@@ -36,7 +44,7 @@
     align-items: center
   .product_img
     max-width: 400px
-    height: 400px
+    height: auto
     width: 100%
     background: rgba(0, 0, 0,0.05 )
     img
@@ -49,11 +57,13 @@
   .product_info
     width: 100%
     padding-left: 0px
+    margin-top: 20px
     p
       font-size: 18px
     @include b992
       width: calc( 100% - 400px )
       padding-left: 40px
+      margin-top: 0
     .contact
       margin-top: 20px
       font-size: 18px
@@ -73,7 +83,7 @@
         border-radius: 50px
         margin: 10px 0 0 0
         @include b768
-          margin: 0 20px 0 0
+          margin: 0 0 0 20px
   &.modal_news
     .modal-header
       justify-content: space-between
@@ -90,3 +100,10 @@
         color: $color_grey_66
     .product_img
       height: auto
+  .info_detail
+    h4
+      margin-top: 20px
+    ul>li
+      list-style-type: disc
+      margin-left: 20px
+      line-height: 1.5
