@@ -596,12 +596,13 @@ modal = '<!-- modal 1 -->\
       </div>\
       <div class="modal-body product_box">\
         <div class="product_img">\
-          <img src="images/news/news04.jpg" alt="大瓦數主變壓器(鈦金牌)">\
+          <img src="images/news/news04.jpg" alt="共差模電感參數產品">\
         </div>\
         <div class="product_info">\
           <h3>Transformer 變壓器</h3>\
-          <h2>大瓦數主變壓器(鈦金牌)</h2>\
-          <p>全新的設計, 成功design in 及量產入鈦金牌電源產品.</p>\
+          <h2>共差模電感參數產品目錄及應用</h2>\
+          <p>介紹共差模電感參數及應用，詳細資料請參考下方連結內資料檔案.</p>\
+          <a class="news_btn" target="_blank" href="https://drive.google.com/file/d/1nO7-WOa5E47ajz08ZhVb94UE-bWf7Zk9/view?usp=sharing">資料連結</a>\
         </div>\
       </div>\
     </div>\
