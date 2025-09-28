@@ -965,6 +965,9 @@ header .mob-header {
 .articleBlock04 .btn_partner:hover {
   background: #C02A2C;
 }
+.articleBlock04 .section_partner {
+  display: none;
+}
 
 .articleBlock05 .news_content {
   padding: 60px 25px;
